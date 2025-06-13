@@ -331,20 +331,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a66ce9ff93b96de4a8da2ef309874395, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rooms:
-  - {fileID: 7328084662367532751, guid: 5e0010e445772584da8b9da5df3cc9c5, type: 3}
-  - {fileID: 7328084662367532751, guid: 8d4af2e00ad01664ab7356813c3f9f47, type: 3}
-  - {fileID: 7328084662367532751, guid: a65b4f678a69ed24fb04fd5fb964347b, type: 3}
-  - {fileID: 7328084662367532751, guid: e1d3001d62675904a80983098b5105d7, type: 3}
-  - {fileID: 7328084662367532751, guid: 12c5b1ddc02561842b6f88a895dcbf2a, type: 3}
-  - {fileID: 7328084662367532751, guid: da54436ae2124824ca2c3b0db3c161b6, type: 3}
-  - {fileID: 7328084662367532751, guid: 28b1cf9aa0d85bb40b848849db84fdec, type: 3}
-  vertical_hallway: {fileID: 5255264242106100983, guid: 23dab4baa5c4e3d4f9ab82b747040843, type: 3}
-  horizontal_hallway: {fileID: 1508018506499616265, guid: da4748670254bcd48a9c066ed148bec1, type: 3}
-  start: {fileID: 7328084662367532751, guid: fbb7b04d19af1aa4aad44cc45b15c4d1, type: 3}
-  target: {fileID: 7328084662367532751, guid: 0b2779608081820479b40f34b30be409, type: 3}
-  MAX_SIZE: 25
-  THRESHOLD: 100000
+  startRoomPrefab: {fileID: 6998031654391908865, guid: fbb7b04d19af1aa4aad44cc45b15c4d1, type: 3}
+  roomPrefabs:
+  - {fileID: 6998031654391908865, guid: 5e0010e445772584da8b9da5df3cc9c5, type: 3}
+  - {fileID: 6998031654391908865, guid: 8d4af2e00ad01664ab7356813c3f9f47, type: 3}
+  - {fileID: 6998031654391908865, guid: a65b4f678a69ed24fb04fd5fb964347b, type: 3}
+  - {fileID: 6998031654391908865, guid: e1d3001d62675904a80983098b5105d7, type: 3}
+  - {fileID: 6998031654391908865, guid: 12c5b1ddc02561842b6f88a895dcbf2a, type: 3}
+  - {fileID: 6998031654391908865, guid: fbb7b04d19af1aa4aad44cc45b15c4d1, type: 3}
+  - {fileID: 6998031654391908865, guid: 0b2779608081820479b40f34b30be409, type: 3}
+  - {fileID: 6998031654391908865, guid: da54436ae2124824ca2c3b0db3c161b6, type: 3}
+  - {fileID: 6998031654391908865, guid: 28b1cf9aa0d85bb40b848849db84fdec, type: 3}
+  numberOfRooms: 10
+  gridSize: {x: 10, y: 10}
+  roomSpacing: 10
 --- !u!4 &1893224133
 Transform:
   m_ObjectHideFlags: 0
